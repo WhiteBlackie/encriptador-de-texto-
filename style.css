@@ -65,6 +65,11 @@ main{
 
 
 }
+.btn-desencriptar:hover{
+    background-color: #e12885;
+    color: white;
+    transition: 0.5s;
+}
 
 
 
@@ -83,6 +88,12 @@ main{
     width: 336px;
 }
 
+.btn-copiar:hover{
+    background-color: #e12885;
+    color: white;
+    transition: 0.5s;
+}
+
 .btn-encriptar{
     background-color: #137a7f;
     border: 1px solid #137a7f;
@@ -96,7 +107,14 @@ main{
     width: 336px;
 }
 
+.btn-encriptar:hover {
+    background-color: #e12885;
+    color: white;
+    transition: 0.5s;
+}
+
 .informacion{
     color: #373b3e;
     font-size: 18px;
 }
+
