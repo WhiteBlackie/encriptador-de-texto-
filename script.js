@@ -38,16 +38,36 @@ function desencriptar(stringDesencriptado) {
     }
     return stringDesencriptado;
 
+}
+    // Código JavaScript en script.js
+// ... Código existente ...
 
-    // ... Código existente ...
+function btnCopiar() {
+    const textoCopiado = mensaje.value;
+    if (textoCopiado) {
+        navigator.clipboard.writeText(textoCopiado)
+            .then(() => {
+                alert("Texto copiado al portapapeles");
+            })
+            .catch((error) => {
+                console.error("Error al copiar el texto:", error);
+            });
+    } else {
+        alert("No hay texto para copiar.");
+    }
+}
 
-// Código JavaScript en script.js
+    // Código JavaScript en script.js
 // ... Código existente ...
 
 
+    
 
 
-}
+
+
+
+
 
 
 
