@@ -65,10 +65,11 @@ main{
 
 
 }
+
 .btn-desencriptar:hover{
     background-color: #e12885;
     color: white;
-    transition: 0.5s;
+    transition: 0.05s;
 }
 
 
